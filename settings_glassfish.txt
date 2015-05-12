@@ -1,0 +1,10 @@
+JMS Resources> Connection Factories : New
+
+Pool name : jms/FactoryConnector
+Resource type : javax.jms.QueueFactoryConnectionFactory
+
+JMS Resources> Destination Factories : New
+
+Pool Name : jsm/DestinationResource
+Resource type : javax.jms.Queue
+
