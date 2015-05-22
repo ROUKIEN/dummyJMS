@@ -48,8 +48,8 @@ class Recepteur {
 		
 			TextMessage msg = (TextMessage) receiver.receive();
 
-			msg.acknowledge(); //on informe explicitement au middleware qu'on a reçu le message
 			System.out.println(msg.getText());
+			msg.acknowledge(); //on informe explicitement au middleware qu'on a reçu le message
 			connection.close();
 			
 		} catch(Exception e) {

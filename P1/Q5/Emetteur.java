@@ -2,6 +2,7 @@ import javax.jms.*;
 import javax.naming.InitialContext;
 
 class Emetteur {
+
 	public Emetteur() {
 		System.out.println("emetteur created");
 	}
